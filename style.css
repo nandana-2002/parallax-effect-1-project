@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.background{
+    position: relative;
+    
+    background-image: url(../images/photography-vss4nqivnvgidouh.jpg);
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110vh;
+}
+.head1{
+    position: absolute;
+    top: 50%;
+    color: #d4cdcd;
+    font-size:60px;
+    width: 100%;
+    animation: drop 3.0s ease; /* Make things beautiful */
+    cursor: pointer;
+    text-align: center;
+    
+    
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+.caring{
+    font-size: 20px;
+    color: white; 
+    padding-left: 50px;
+}
+.child{
+    text-align: center;
+    font-size: 30px;
+    
+
+}
+.childpara{
+    text-align: justify;
+    text-align: center;
+    font-size:15px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+section{
+    overflow: auto;
+    padding: 50px 80px;
+
+}
+.parallax2{
+    background-image: url(../images/pexels-photo-1264210.jpeg);
+    background-attachment: fixed;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:60vh;
+}
+.parallax3{ background-image: url(../images/man-holding-camera-during-sunrise-photography-upyjjojnmx8jx288.jpg);
+    background-attachment: fixed;
+    background-position:top;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:60vh;
+
+}
+.parallax4{ background-image: url(../images/jakob-owens-H6a1mbbXFis-unsplash-scaled.jpg);
+    background-attachment: fixed;
+    background-position:top;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:80vh;
+
+}
+.head2{
+    
+    
+    color: #fbf1f1;
+    font-size:60px;
+    width: 100%;
+    animation: drop 3.0s ease; /* Make things beautiful */
+    cursor: pointer;
+    text-align: center; 
+    padding-top: 200px;
+    
+    
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+footer{
+    width: 100%;
+    background-color: #323232;
+    color: #f2f2f2;
+    height: 3vh;
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 1vh;
+}
